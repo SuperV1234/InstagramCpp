@@ -11,6 +11,7 @@
 #include <fcntl.h>
 #include <poll.h>
 #include "TCPSocket.h"
+#include <errno.h>
 
 namespace Socket{
 
