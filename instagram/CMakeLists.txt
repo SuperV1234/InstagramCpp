@@ -5,6 +5,7 @@ include_directories(
 	src/results/inc 
 	${PROJECT_SOURCE_DIR}/http/inc
 	${PROJECT_SOURCE_DIR}/sockets/inc
+	${OPENSSL_INCLUDE_DIR}
 )
 
 add_subdirectory(src)

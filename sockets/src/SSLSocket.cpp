@@ -4,6 +4,7 @@
 #include <cstring>
 #include <stdexcept>
 #include <utility>
+#include <errno.h>
 
 #include <openssl/err.h>
 #include <openssl/x509v3.h>
